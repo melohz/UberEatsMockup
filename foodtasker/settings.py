@@ -119,3 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# it means that once user successfully logged in the home page, user will be redirected to top page.
+LOGIN_REDIRECT_URL = '/'
